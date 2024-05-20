@@ -54,7 +54,7 @@ class MainActivity : ComponentActivity() {
                             title = { Text(text = "Home") },
                             colors = TopAppBarDefaults.topAppBarColors(containerColor = Color.Cyan),
                             navigationIcon = {
-                                IconButton(onClick = { /*TODO*/ }) {
+                                IconButton(onClick = { }) {
                                     Icon(
                                         imageVector = Icons.Filled.KeyboardArrowLeft,
                                         contentDescription = ""
