@@ -79,7 +79,7 @@ class MainActivity : ComponentActivity() {
 
                             ) {
                             TextField(
-                                label = {Text("Write your Name")},
+                                label = {Text("Write your Name!")},
                                 value = yourName,
                                 onValueChange = { yourName = it },
                                 modifier = Modifier.align(
