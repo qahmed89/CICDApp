@@ -79,7 +79,7 @@ class MainActivity : ComponentActivity() {
 
                             ) {
                             TextField(
-                                label = {Text("Write your Name")},
+                                label = {Text("Write your Name!")},
                                 value = yourName,
                                 onValueChange = { yourName = it },
                                 modifier = Modifier.align(
@@ -111,7 +111,7 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun Greeting(name: String, modifier: Modifier = Modifier) {
     Text(
-        text = "Hello $name!",
+        text = "Hello $name",
         modifier = modifier
     )
 }
